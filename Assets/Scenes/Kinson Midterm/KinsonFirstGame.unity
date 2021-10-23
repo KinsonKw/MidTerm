@@ -971,11 +971,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da35992fbe2e75d40b634d87d754fd41, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.3
+      value: 0.189765
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da35992fbe2e75d40b634d87d754fd41, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.3
+      value: 0.18430799
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da35992fbe2e75d40b634d87d754fd41, type: 3}
       propertyPath: m_LocalScale.z
@@ -983,11 +983,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da35992fbe2e75d40b634d87d754fd41, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.59
+      value: -4.44
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da35992fbe2e75d40b634d87d754fd41, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.000000014901
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da35992fbe2e75d40b634d87d754fd41, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1024,7 +1024,7 @@ PrefabInstance:
     - target: {fileID: 2300000, guid: da35992fbe2e75d40b634d87d754fd41, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 5784643b9d2c5104b8c3bbb2bbfe37a2, type: 2}
+      objectReference: {fileID: 2100000, guid: fcd57443fdc0e4044b6b46f692851f44, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da35992fbe2e75d40b634d87d754fd41, type: 3}
 --- !u!1 &397660759 stripped
@@ -1097,7 +1097,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -1113,7 +1113,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3287a576ae9ae9a4882de128deff6a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fallDelay: 1
+  fallDelay: 0.35
   rigidbody: {fileID: 218497313}
 --- !u!65 &459456675
 BoxCollider:
@@ -1316,7 +1316,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 085d63a3e4e9f404fba7e0fb585f6dc0, type: 2}
+  - {fileID: 2100000, guid: f2bffbeb094e1415586c0fdcaa089b71, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2042,7 +2042,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -2058,7 +2058,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3287a576ae9ae9a4882de128deff6a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fallDelay: 1
+  fallDelay: 0.3
   rigidbody: {fileID: 2110211430}
 --- !u!65 &952816446
 BoxCollider:
@@ -2132,7 +2132,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -2148,7 +2148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3287a576ae9ae9a4882de128deff6a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fallDelay: 1
+  fallDelay: 0.3
   rigidbody: {fileID: 925583385}
 --- !u!65 &985264073
 BoxCollider:
@@ -2478,7 +2478,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -2494,7 +2494,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3287a576ae9ae9a4882de128deff6a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fallDelay: 1
+  fallDelay: 0.33
   rigidbody: {fileID: 1787819858}
 --- !u!65 &1040808466
 BoxCollider:
@@ -3362,11 +3362,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da35992fbe2e75d40b634d87d754fd41, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.3
+      value: 0.23649602
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da35992fbe2e75d40b634d87d754fd41, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.3
+      value: 0.23197801
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da35992fbe2e75d40b634d87d754fd41, type: 3}
       propertyPath: m_LocalScale.z
@@ -3374,7 +3374,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da35992fbe2e75d40b634d87d754fd41, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.25
+      value: -4.02
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da35992fbe2e75d40b634d87d754fd41, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3382,7 +3382,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da35992fbe2e75d40b634d87d754fd41, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.324
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da35992fbe2e75d40b634d87d754fd41, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3779,7 +3779,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _controller: {fileID: 1175486929}
   teleportTarget: {fileID: 2080899537}
-  _player: {fileID: 185508251}
+  _player: {fileID: 1175486922}
 --- !u!136 &1283878611
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3988,7 +3988,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1369346784}
   - component: {fileID: 1369346785}
-  - component: {fileID: 1369346786}
   m_Layer: 5
   m_Name: Container_All
   m_TagString: Untagged
@@ -4032,20 +4031,6 @@ MonoBehaviour:
   _keysRequired: 3
   _victoryLabel: {fileID: 478802904}
   _keysLabel: {fileID: 1622221142}
---- !u!114 &1369346786
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1369346783}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3287a576ae9ae9a4882de128deff6a3e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fallDelay: 1
-  rigidbody: {fileID: 0}
 --- !u!1001 &1371756185
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4063,11 +4048,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da35992fbe2e75d40b634d87d754fd41, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.3
+      value: 0.213777
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da35992fbe2e75d40b634d87d754fd41, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.3
+      value: 0.21686801
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da35992fbe2e75d40b634d87d754fd41, type: 3}
       propertyPath: m_LocalScale.z
@@ -4075,7 +4060,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da35992fbe2e75d40b634d87d754fd41, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.25
+      value: 4.426
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da35992fbe2e75d40b634d87d754fd41, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4143,7 +4128,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _controller: {fileID: 1175486929}
   teleportTarget: {fileID: 397660760}
-  _player: {fileID: 185508251}
+  _player: {fileID: 1175486922}
 --- !u!136 &1371756189
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4581,11 +4566,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da35992fbe2e75d40b634d87d754fd41, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.3
+      value: 0.18865801
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da35992fbe2e75d40b634d87d754fd41, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.3
+      value: 0.218718
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da35992fbe2e75d40b634d87d754fd41, type: 3}
       propertyPath: m_LocalScale.z
@@ -4593,15 +4578,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da35992fbe2e75d40b634d87d754fd41, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.59
+      value: 4.48
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da35992fbe2e75d40b634d87d754fd41, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.000000014901
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da35992fbe2e75d40b634d87d754fd41, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.08
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da35992fbe2e75d40b634d87d754fd41, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4634,7 +4619,7 @@ PrefabInstance:
     - target: {fileID: 2300000, guid: da35992fbe2e75d40b634d87d754fd41, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 5784643b9d2c5104b8c3bbb2bbfe37a2, type: 2}
+      objectReference: {fileID: 2100000, guid: fcd57443fdc0e4044b6b46f692851f44, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da35992fbe2e75d40b634d87d754fd41, type: 3}
 --- !u!1001 &1572471541
@@ -5229,7 +5214,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -5245,7 +5230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3287a576ae9ae9a4882de128deff6a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fallDelay: 1
+  fallDelay: 0.2
   rigidbody: {fileID: 1324227350}
 --- !u!65 &1711937645
 BoxCollider:

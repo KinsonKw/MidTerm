@@ -10,11 +10,12 @@ public class PlayerReset : MonoBehaviour
     [SerializeField] private LayerMask _layerMask;
 
     private static PlayerReset _instance;
+    private FallingPlatform[] fallingPlatform;
     public static PlayerReset Instance
     {
         get
         {
-            if(_instance == null) { _instance = FindObjectOfType<PlayerReset>(); }
+            if (_instance == null) { _instance = FindObjectOfType<PlayerReset>(); }
             return _instance;
         }
     }
@@ -25,6 +26,7 @@ public class PlayerReset : MonoBehaviour
 
     void Start()
     {
+        fallingPlatform = FindObjectsOfType<FallingPlatform>();
         RecordTransform();
     }
 
@@ -61,5 +63,12 @@ public class PlayerReset : MonoBehaviour
         transform.rotation = _lastRotation;
 
         _controller.enabled = true;
+
+        Debug.LogError("reset");
+
+        foreach (FallingPlatform platform in fallingPlatform)
+        {
+            platform.resetPlaform();
+        }
     }
 }

@@ -10,9 +10,14 @@ public class Teleport : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        _controller.enabled = false;
-        _player.transform.position = teleportTarget.transform.position;
-        _controller.enabled = true;
+        if(other.gameObject.tag == "Player")
+        {
+            _controller.enabled = false;
+            _player.transform.position = teleportTarget.position;
+            _controller.enabled = true;
+
+            Debug.LogError("Teleport");
+        }
     }
     
 }
