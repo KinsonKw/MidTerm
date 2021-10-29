@@ -8,5 +8,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Kinson Midterm/KinsonFirstGame.unity
     guid: fd711112798d8ce4b88c971c32c7b8af
+  - enabled: 1
+    path: Assets/Scenes/Kinson Midterm/MenuScreen.unity
+    guid: c790806d01ed51d4899aa6ed1839a399
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}

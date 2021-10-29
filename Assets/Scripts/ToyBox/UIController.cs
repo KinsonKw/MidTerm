@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
+using UnityEngine.SceneManagement;
 using TMPro;
+using UnityEngine;
+using UnityEngine.UI;
 
 public class UIController : MonoBehaviour
 {
@@ -52,5 +54,16 @@ public class UIController : MonoBehaviour
     private void UpdateKeyLabel()
     {
         _keysLabel?.SetText("Keys: " + _keysCollected + "/" + _keysRequired);
+    }
+
+    public void OnClickPlayAgian()
+    {
+        SceneManager.LoadScene("KinsonFirstGame");
+        Debug.LogError("Clicking");
+    }
+    public void OnClickMainMenu()
+    {
+        SceneManager.LoadScene("MenuScreen");
+        Debug.LogError("Clicking");
     }
 }
